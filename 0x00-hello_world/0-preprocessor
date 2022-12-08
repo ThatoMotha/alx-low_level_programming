@@ -1,1 +1,2 @@
-My first C program
+#!bin/bash
+gcc -E $CFILE >> c
