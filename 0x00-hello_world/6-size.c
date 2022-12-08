@@ -3,19 +3,19 @@
  * sizeof variable
  * Return: m32
  */
-int main(void)
+int main()
 {
-	char charType;
-	int intType;
-	long int intType;
-	long long intType;
-	float floatType;
-
-	printf("Size of int: %zu bytes\n", sizeof(intType));
-	printf("Size of float: %zu bytes\n", sizeof(floatType));
-	printf("Size of long int: %zu bytes\n", sizeof(intType));
-	printf("Size of long long int: %zu bytes\n", sizeof(intType));
-        printf("Size of char: %zu byte\n", sizeof(charType));
+	char x;
+	printf("Size of the variable is:%d bytes.", sizeof (x));
+	int x;
+	printf("Size of the variable is:%d bytes.", sizeof (x));
+        long int x;
+        printf("Size of the variable is:%d bytes."; sizeof(x));
+        long long int x;
+        printf("Size of the variable is:%d bytes."; sizeof(x));
+	float x;
+	printf("Size of the variable is:%d bytes."; sizeof(x));
 
 	return(0);
+
 }
