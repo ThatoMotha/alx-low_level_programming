@@ -1,21 +1,15 @@
 #include<stdio.h>
 /**
- * sizeof variable
- * Return: m32
+ * main - main block
+ * Return: (0)
  */
-int main()
+int main(void)
 {
-	char x;
-	printf("Size of the variable is:%d bytes.", sizeof (x));
-	int x;
-	printf("Size of the variable is:%d bytes.", sizeof (x));
-        long int x;
-        printf("Size of the variable is:%d bytes."; sizeof(x));
-        long long int x;
-        printf("Size of the variable is:%d bytes."; sizeof(x));
-	float x;
-	printf("Size of the variable is:%d bytes."; sizeof(x));
-
+	printf("Size of char:%lu byte(s)\n", sizeof(char));
+	printf("Size of int:%lu byte(s)\n", sizeof(int));
+        printf("Size of long int:%lu byte(s)\n"; sizeof(long int));
+        printf("Size of long long int:%lu byte(s)\n"; sizeof(long long int));
+	printf("Size of float:%lu byte(s)\n"; sizeof(float));
 	return(0);
 
 }
