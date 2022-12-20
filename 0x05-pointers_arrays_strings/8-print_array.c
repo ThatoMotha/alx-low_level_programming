@@ -7,7 +7,7 @@
  * @n: pointer to second int
  * Return: nothing
  */
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 {
 	for (int i = 0; i < n; i++)
 	{
