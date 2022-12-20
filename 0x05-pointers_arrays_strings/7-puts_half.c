@@ -4,7 +4,7 @@
  * @str: pointer to the string to print
  * Return:void
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 int len, n, i;
 len = 0;
