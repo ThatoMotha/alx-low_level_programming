@@ -7,21 +7,14 @@
  */
 int main(void)
 {
-	int i, j;
+	int i;
 
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
 		putchar(',');
 		putchar(' ');
-
-		for (j = i + 1; j <= '9'; j++)
-		{
-			putchar(j);
-			putchar(',');
-			putchar(' ');
-		}
 	}
-	putchar('\n');
+	putchar('9');
 	return (0);
 }
