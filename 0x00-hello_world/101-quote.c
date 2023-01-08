@@ -7,7 +7,8 @@
 int main(void)
 {
 	char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	size_t msg_len = 59;
 
-	fwrite(msg, sizeof(char), 50, stderr);
+	fwrite(msg, sizeof(char), msg_len, stdout);
 	return (1);
 }
