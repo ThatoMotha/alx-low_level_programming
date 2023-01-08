@@ -5,7 +5,7 @@
  * Describtion: Get a random it with 5
  * Return: 0
  */
-int main(void) 
+int main(void)
 {
 	char c = 'a';
 
