@@ -9,6 +9,7 @@
 int is_palindrome(char *s)
 {
 	char *start;
+	char *end;
 
 	int len = strlen(s);
 
@@ -17,7 +18,7 @@ int is_palindrome(char *s)
 		return (1);
 	}
 	start = s;
-	char *end = s + len - 1;
+	end = s + len - 1;
 
 	while (start < end)
 	{
