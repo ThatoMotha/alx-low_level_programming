@@ -2,8 +2,10 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Write a program that prints all possible combinations of two two-digit numbers.
+ * Write a program that prints all possible
+ * combinations of two two-digit numbers.
  * The numbers should range from 0 to 99
+ * Return: 0
  */
 int main(void)
 {
@@ -19,7 +21,7 @@ int main(void)
 	{
 		f_d = (c2 / 10 + '0');
 		l_d = (c2 % 10 + '0');
-		c2= 0;
+		c2 = 0;
 		while (c2 <= 98)
 		{
 			f_d2 = (c2 / 10 + '0');
@@ -46,5 +48,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-						
-
