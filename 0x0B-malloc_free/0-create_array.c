@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stddef.h>
 #include <stdlib.h>
+#include <string.h>
 /**
- * create_array - function that creates an array of chars,
+ * create_array -  function that creates an array of chars,
  * and initializes it with a specific char.
- * @size: unsigned integer
+ * @size: An unsigned integer
  * @c: char
  * Return: NULL if size = 0
  */
@@ -14,16 +14,12 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	char *array = (char *) malloc(sizeof(char) * size);
+	char *array = (char *) calloc(size, sizeof(char));
 
 	if (array == NULL)
 	{
 		return (NULL);
 	}
-
-	for (unsigned int i = 0; i < size; i++)
-	{
-		array[i] = c;
-	}
+	memset(array, c, size);
 	return (array);
 }
