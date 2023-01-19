@@ -6,6 +6,7 @@
  * @argv: This is the argument vector
  * Return: 0;
  */
+int main(int argc, char *argv[])
 {
 	int index, multiplication;
 
